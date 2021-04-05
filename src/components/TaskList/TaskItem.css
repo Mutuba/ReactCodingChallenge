@@ -1,0 +1,89 @@
+input[type="checkbox"] {
+  zoom: 2;
+}
+
+.task-item {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.avatar-image,
+.task-description {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image-span {
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+.task-description {
+  overflow-wrap: break-word;
+}
+.inner-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-finish-time {
+  margin-left: 80px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .task-checkbox-input {
+    margin-right: 25px;
+  }
+
+  input[type="checkbox"] {
+    zoom: 1;
+  }
+  .inner-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+
+  .task-container {
+    background: #ffff;
+    margin: auto;
+    width: 100vw;
+    border-radius: 15px;
+    color: #a9a9a9;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .task-bar-add-icon {
+    margin-right: 30px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .task-bar-header {
+    margin-left: 20px;
+  }
+
+  .task-finish-time {
+    font-size: smaller;
+    width: 60px;
+    margin-right: 25px;
+  }
+
+  .inner-flex {
+    font-size: smaller;
+  }
+}
+
+
+
+
+

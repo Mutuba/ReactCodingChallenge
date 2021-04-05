@@ -1,0 +1,70 @@
+.task-app-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6f00ff;
+  color: #ffffff;
+  min-height: 70px;
+  min-width: 100%;
+  border-radius: 2px;
+}
+
+.task-bar-add-icon {
+  margin-right: 50px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.task-bar-header {
+  margin-left: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .task-bar-add-icon {
+    margin-right: 30px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .task-bar-header {
+    margin-left: 20px;
+  }
+
+  .task-finish-time {
+    font-size: smaller;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .task-finish-time {
+    margin-right: 10px;
+    width: 50px;
+  }
+
+  .task-checkbox-input {
+    margin-right: 20px;
+  }
+
+  .task-bar-add-icon {
+    margin-right: 100px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .task-bar-header {
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .task-bar-add-icon {
+    margin-right: 60px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .task-bar-header {
+    margin-left: 60px;
+  }
+}
