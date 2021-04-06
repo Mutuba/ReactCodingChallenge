@@ -42,7 +42,7 @@ export const addTask = (formData, callback) => async (dispatch) => {
   }
 };
 
-// Add task
+// Update task
 export const updateTask = (task_id) => async (dispatch) => {
   try {
     const res = await axios.put(
