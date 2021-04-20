@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { addTask } from "../../actions/task";
 
-import "./TaskForm.css";
+import "../styles/TaskForm.css";
 
 const TaskForm = ({ addTask, setFormState }) => {
   const [descripton, setDescription] = useState("");

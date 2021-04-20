@@ -22,8 +22,7 @@ it("render app with task list", async () => {
   setTimeout(() => {
     const taskDescription = "Wash baby Pearl before going out";
 
-    console.log(screen.debug());
-    expect(screen.getByRole("tasks")).toBeTruthy();
+    expect(screen.getByTestId("tasks")).toBeTruthy();
     expect(screen.getAllByText(taskDescription)).toBeTruthy();
   }, 1000);
 });

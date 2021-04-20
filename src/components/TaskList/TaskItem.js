@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { updateTask } from "../../actions/task";
 
-import "./TaskItem.css";
+import "../styles/TaskItem.css";
 
 const TaskItem = ({
   updateTask,

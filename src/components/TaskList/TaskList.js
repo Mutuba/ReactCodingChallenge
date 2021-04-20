@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./TaskList.css";
+import "../styles/TaskList.css";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getTasks } from "../../actions/task";
@@ -34,7 +34,7 @@ const TaskList = ({ getTasks, task: { tasks, loading } }) => {
               </div>
             ) : (
               <div className="Task">
-                <div role='tasks' className="TaskList">
+                <div id='tasks' className="TaskList">
                   {tasks.map((task, index) => (
                     <TaskItem key={index} id={task.id} task={task} />
                   ))}
